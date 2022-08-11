@@ -1,0 +1,11 @@
+Create a deep learning environment by running each of these, line by line, in Anaconda prompt 
+
+	conda create -n deeplearning python=3.8
+	conda activate deeplearning
+
+	conda install numpy=1.19.2 pandas matplotlib jupyter jupyterlab pydot pillow seaborn
+	conda install -c conda-forge tensorflow
+	conda install scikit-learn=0.24.1 nltk
+	conda install -c conda-forge xgboost
+	conda install -c conda-forge imageio
+	conda install -c conda-forge statsmodels
